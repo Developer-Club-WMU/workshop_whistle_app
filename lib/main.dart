@@ -13,6 +13,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'My Whistle',
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+      ),
       // Comment out the selected stage and uncomment the desired stage you wish to view
       home: const Stage1Basic(),
       // home: const Stage2Multiple(),
